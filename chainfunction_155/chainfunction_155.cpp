@@ -15,3 +15,12 @@ public:
 		return this->judul;
 	}
 
+} bukunya;
+
+int main()
+{
+	//bukunya.setjudul("MATEMATIKA")
+	//cout << bukunya.getjudul();
+	cout << bukunya.setjudul("Matematika").getjudul(); // chain function calls
+	return 0;
+}
