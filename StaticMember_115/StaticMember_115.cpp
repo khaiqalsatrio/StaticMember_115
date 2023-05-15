@@ -22,10 +22,18 @@ void mahasiswa::setID() {
 void mahasiswa::printALL() {
     cout << "ID =" << id << endl;
     cout << "Nama =" << nama << endl;
+    cout << endl;
 }
 
-void main() {
+int main() {
     mahasiswa mhs1("Lia kurnia");
     mahasiswa mhs2("asroni");
     mahasiswa mhs3("andi kurniawan");
     mahasiswa mhs4("joko purjo");
+
+    mhs1.printALL();
+    mhs2.printALL();
+    mhs3.printALL();
+    mhs4.printALL();
+    return 0;
+}
